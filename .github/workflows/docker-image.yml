@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: ls #docker build . --file titanic-backend/Dockerfile --tag lukaszsedek/titanic-backend:$(date +%s)
+      run: docker build . --file ./titanic-backend/Dockerfile --tag lukaszsedek/titanic-backend:$(date +%s)
