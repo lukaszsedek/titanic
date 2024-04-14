@@ -4,7 +4,7 @@ WORKDIR /app
 
 EXPOSE 8081
 
-COPY . .
+COPY titanic-backend/ .
 
 RUN pip install -r requirements.txt
 
