@@ -1,0 +1,1 @@
+[![Docker Images CI](https://github.com/lukaszsedek/titanic/actions/workflows/docker-image.yml/badge.svg)](https://github.com/lukaszsedek/titanic/actions/workflows/docker-image.yml)
